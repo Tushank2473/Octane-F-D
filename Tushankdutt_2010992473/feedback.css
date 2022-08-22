@@ -1,0 +1,124 @@
+
+.navbar-brand{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.logob{
+    width: 100px;
+    height: 80px;
+    cursor: pointer;
+    }
+    
+    nav{
+     width: 84%;
+     margin: auto;
+     padding: 20px 0;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+    }
+   
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 10px 20px;
+    }
+    
+    nav ul li a{
+        text-decoration: none;
+        color: #606163;
+    }
+    
+    nav ul li a:hover{
+        color: #ff4321;
+    } 
+   
+    .d {
+     display: flex;
+     align-items: center;
+   }
+   
+   
+    .align-center {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+   }
+   
+    @media only screen and (max-width: 768px) {
+     nav {
+       padding: 16px 0;
+     }
+   
+   
+     .icons{
+       display: none;
+     }
+   
+    
+     .logob{
+       width: 100px;
+       height: 80px;
+       cursor: pointer;
+       
+       } 
+     }
+     
+
+
+h1{
+    margin:2rem;
+}
+
+i{
+    color: #71C9CE;
+    margin-bottom: 1.5rem;
+    transition: all 0.2s;
+}
+
+i:hover{
+    color: #00ADB5;
+}
+
+.feedback{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+table{
+    text-align: center;
+    width: 80%;
+    margin: 5rem auto;
+}
+
+th{
+    width: 5rem;
+    padding: 1%
+}
+
+.fa-face-frown{
+    color: #FF8B8B;
+}
+
+.fa-face-rolling-eyes{
+    color: #FFEE63;
+}
+
+.fa-face-smile{
+    color: lightgreen;
+}
+
+.fa-face-grin{
+    color:#3EC70B;
+}
+
+footer{
+    text-align: center;
+    padding: 4% 7% 2%;
+}
+
+.socials{
+    margin:10px 40px;
+    text-decoration: none;
+}
